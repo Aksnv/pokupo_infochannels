@@ -10,10 +10,9 @@ body {
 
 .infochannels {
   max-width: 1010px;
-  height: 44px;
+  min-height: 44px;
   font-family: 'PT Sans', sans-serif;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px;
   background-color: #fff;
 }
 
@@ -31,6 +30,10 @@ body {
   padding-top: 11px;
   padding-left: 15px;
   color: #6b6e70;
+}
+
+.infochannels__links {
+  padding-bottom: 11px;
 }
 
 .infochannels__links ul {
@@ -100,7 +103,7 @@ body {
   width: 14px;
   height: 25px;
   margin-top: 9px;
-  margin-right: 19px;
+  /* margin-right: 19px; */
   background-position: -133px 0;
 }
 
@@ -112,6 +115,7 @@ body {
   width: 88px;
   height: 23px;
   margin-top: 11px;
+  margin-left: 19px;
   background-position: -157px -3px;
 }
 
